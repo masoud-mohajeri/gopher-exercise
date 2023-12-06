@@ -4,3 +4,7 @@ tasks:
   run:
     cmds:
       - go run main.go
+  escape:
+    cmds:
+      # - go build -gcflags="-m -l" main.go
+      - go build -gcflags="-m=2" main.go
