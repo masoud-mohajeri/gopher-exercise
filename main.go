@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/masoud-mohajeri/gopher-exercise/exercises/database"
+)
 
 func main() {
-	fmt.Println("Hello world!")
+	database.Database()
 }

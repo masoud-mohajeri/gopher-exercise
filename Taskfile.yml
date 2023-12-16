@@ -8,3 +8,6 @@ tasks:
     cmds:
       # - go build -gcflags="-m -l" main.go
       - go build -gcflags="-m=2" main.go
+  db:
+    cmds:
+      - docker compose up
