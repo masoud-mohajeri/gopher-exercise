@@ -4,5 +4,6 @@ import "fmt"
 
 func Database() {
 	fmt.Println("hello world")
-	Postgresql()
+	//Postgresql()
+	Redis()
 }
