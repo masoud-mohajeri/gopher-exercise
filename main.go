@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/masoud-mohajeri/gopher-exercise/exercises/database"
+	"github.com/masoud-mohajeri/gopher-exercise/exercises/apiCall"
 )
 
 func main() {
-	database.Database()
+	apiCall.ApiCall()
 }
