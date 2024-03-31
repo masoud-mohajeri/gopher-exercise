@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/masoud-mohajeri/gopher-exercise/exercises/leetcode"
+	"github.com/masoud-mohajeri/gopher-exercise/exercises/reflect"
 )
 
 func main() {
-	leetcode.CloneGraph()
+	reflect.DecodeKeyValue()
 }
